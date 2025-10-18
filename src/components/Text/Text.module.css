@@ -1,0 +1,59 @@
+.text {
+  font-family: var(--font-sans);
+  margin: 0;
+}
+
+.title {
+  color: var(--color-foreground);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: var(--color-foreground);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.body {
+  color: var(--color-muted-foreground);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.score {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: var(--color-foreground);
+}
+
+.timer {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: var(--color-foreground);
+}
+
+.result {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  min-height: 30px;
+  font-weight: bold;
+}
+
+.correct {
+  color: var(--color-primary);
+}
+
+.wrong {
+  color: var(--color-destructive);
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+}

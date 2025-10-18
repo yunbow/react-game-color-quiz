@@ -1,0 +1,18 @@
+.container {
+  max-width: 800px;
+  width: 100%;
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-xl);
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.gameArea {
+  margin-bottom: 30px;
+}
+
+.gameOver {
+  text-align: center;
+}

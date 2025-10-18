@@ -1,0 +1,14 @@
+.colorDisplay {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 600px) {
+  .colorDisplay {
+    width: 150px;
+    height: 150px;
+  }
+}
